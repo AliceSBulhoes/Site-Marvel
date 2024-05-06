@@ -57,7 +57,7 @@ nav ul{
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 10em;
+    gap: 1em;
     height: 100%;
 }
 .right{
@@ -78,7 +78,7 @@ nav ul{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: var(--header-cor);
-    padding: 40px 70px;
+    padding: 40px 140px;
     border-radius: 10px;
     box-shadow: 1px 1px 30px var(--shadow-cor);
     transition: 1s ease;
@@ -170,6 +170,7 @@ nav ul{
 #email{
     background-color: var(--bg-cor);
     border: black;
+    color: var(--font-cor);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 9px 20px var(--shadow-cor);
