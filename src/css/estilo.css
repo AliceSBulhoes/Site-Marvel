@@ -121,6 +121,9 @@ nav ul{
     gap: 10em;
     height: 100%;
 }
+span{
+    font-size: 30px;
+}
 .medicao{
     width: 86.5%;
     display: flex;
@@ -169,6 +172,7 @@ nav ul{
 }
 #email{
     background-color: var(--bg-cor);
+    width: 100%;
     border: black;
     color: var(--font-cor);
     padding: 10px;
@@ -182,9 +186,10 @@ nav ul{
     color: var(--bg-cor);
     background-color: var(--font-cor);
 }
-.mensagem-hidden{
+.mensagem{
     display: none;
 }
+
 footer{
     text-align: center;
 }
